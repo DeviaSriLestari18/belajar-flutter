@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/container_widget.dart';
-import 'package:myapp/news_container.dart';
+// import 'package:myapp/container_widget.dart';
+// import 'package:myapp/news_container.dart';
+// import 'package:myapp/row_column/column.dart';
+// import 'package:myapp/row_column/latihan_rowcolumn.dart';
+// import 'package:myapp/row_column/row_widget.dart';
+import 'package:myapp/tugas.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,15 +16,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Belajar Flutter',
+      title: 'Biodata',
       home: Scaffold(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color.fromARGB(255, 203, 210, 223),
         appBar: AppBar(
-          title: Text('Belajar Flutter'),
+          title: Text('Biodata'),
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 240, 146, 177),
+          backgroundColor: Color.fromARGB(255, 211, 132, 155),
         ),
-        body: NewsContainer(),
+        body: Tugas(),
       ),
     );
   }
@@ -37,10 +41,7 @@ class BelajarText extends StatelessWidget {
       child: Text(
         'Hello World',
         style: TextStyle(
-          color:  Colors.white,
-          fontSize: 40,
-          fontWeight: FontWeight.bold
-        ),
+            color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),
       ),
     );
   }
