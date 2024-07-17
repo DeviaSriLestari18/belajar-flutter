@@ -24,7 +24,7 @@ class BiodataPage extends StatelessWidget {
                 height: 200.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/foto.jpg'),
+                    image: AssetImage('assets/images/devia.jpeg'),
                     fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(8.0),
@@ -62,7 +62,7 @@ class BiodataPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  color: Colors.grey[300],
+                  color: const Color.fromARGB(255, 219, 171, 171),
                   width: 50,
                   height: 50,
                   child: Row(
@@ -70,15 +70,13 @@ class BiodataPage extends StatelessWidget {
                     children: [
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Icon(Icons.html)
-                        ],
+                        children: [Icon(Icons.html)],
                       )
                     ],
                   ),
                 ),
                 Container(
-                  color: Colors.grey[300],
+                  color:const Color.fromARGB(255, 219, 171, 171),
                   width: 50,
                   height: 50,
                   child: Row(
@@ -86,15 +84,13 @@ class BiodataPage extends StatelessWidget {
                     children: [
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Icon(Icons.php)
-                        ],
+                        children: [Icon(Icons.php)],
                       )
                     ],
                   ),
                 ),
                 Container(
-                  color: Colors.grey[300],
+                  color: const Color.fromARGB(255, 219, 171, 171),
                   width: 50,
                   height: 50,
                   child: Row(
@@ -102,9 +98,7 @@ class BiodataPage extends StatelessWidget {
                     children: [
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Icon(Icons.css)
-                        ],
+                        children: [Icon(Icons.css)],
                       )
                     ],
                   ),
